@@ -7,8 +7,9 @@ export const placeOrder=(token,subtotal)=>async (dispatch , getstate)=>{
     const cartItems = getstate().cartReducer.cartItems
 
     function success(){
-    alert("Your Order Placed successfully",window.history.go(-1))  
-    localStorage.clear("cartItems")
+    alert("Your Order Placed successfully",localStorage.clear("cartItems"))  
+    window.location.reload();
+    // window.history.go(-1)  
 
 }
 
