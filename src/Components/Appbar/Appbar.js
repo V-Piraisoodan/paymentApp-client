@@ -25,7 +25,7 @@ export function ButtonAppBar() {
           </Typography>
     
           <Typography variant="h6" component="div" sx={{ flexGrow: -1 }}>
-            <Link className='home'  to="/">
+            <Link className='home'  to="/getfoods">
               Home </Link>
           </Typography>
           <IconButton size="large" aria-label="show ordered items" color="inherit">
