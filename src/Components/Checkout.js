@@ -20,7 +20,10 @@ export default function Checkout({subtotal}) {
     token={tokenHandler}
     currency="INR"
        >
-        <button className='btn'>PLACE ORDER</button>
+    <Link className='cart-icon' to='/placeorder'>
+      <button className='btn'>PLACE ORDER</button>          
+    </Link>
+      
     </StripeCheckout>
   )
 }
