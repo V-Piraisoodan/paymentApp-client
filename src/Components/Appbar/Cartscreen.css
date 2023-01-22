@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Pro:wght@200&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@100;200;300;500;600&display=swap');
+.cart-container{
+    font-family: "Josefin",serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 85px;
+    gap: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    align-items: flex-start;
+}
+.pricedetail{
+    font-weight: bold;
+    color: rgb(139, 138, 138);
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.cart-sub-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   margin-bottom: 20px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   border-radius: 3px;
+   background-color: rgba(255, 255, 255, 0.747);
+}
+.cart-items{
+    display: flex;
+    gap: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 10px;
+    margin: 10px 5px;
+    height: 150px;
+    border-radius: 8px;
+    width: 95%;
+}
+.cart-img>img{
+    display: flex;
+    margin: 2px;
+    height: 150px;
+    width: 230px;
+    border-radius: 5px;
+}
+.cart-btn-name>h3{
+    margin: 2px 0 9px 0;
+    font-family: "alata",sans-serif;
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+}
+.price{
+    font-size: 17px;
+}
+.cart-btn-name>button{
+    color: white;
+    background-color: tomato;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.cart-btn-name>button:hover{
+    background-color: rgb(240, 26, 26);
+    border: 1px solid black;
+}
+.place-order{
+    position: sticky;
+    top: 75px;
+    right: 60px;
+    width: 20%;
+    border-radius: 4px;
+    padding: 6px 4px;
+    background-color: rgba(255, 255, 255, 0.747);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 280px;
+    font-size: 17px;
+    font-family: "Alata",sans-serif;
+    width: 320px;
+}
+.free{
+    color: green;
+}
+.place-order>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+}
+.place-order>div>p{
+    margin:0px;
+    padding: 9px;
+}

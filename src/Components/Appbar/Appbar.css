@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Josefin+Sans&family=Montserrat:wght@300;500;600&display=swap');
+.appname{
+    font-size: 25px;
+    /* margin-left: 50px; */
+    font-family: "Montserrat",sans-serif;
+}
+.Appbar{
+    position: sticky;
+    top: 0px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0px 40px;
+}
+.cart-icon{
+    text-decoration: none;
+    color: white;
+    padding: 0px 40px;
+}

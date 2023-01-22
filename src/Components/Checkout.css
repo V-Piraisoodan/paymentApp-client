@@ -1,0 +1,20 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+    width: 50%;
+    margin: 15px 20px;
+    padding: 15px 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: "Montserrat:wght@600",sans-serif;
+}
+.btn:hover{
+    background-color: rgb(2, 153, 2);
+    border: 1px solid black;
+}
