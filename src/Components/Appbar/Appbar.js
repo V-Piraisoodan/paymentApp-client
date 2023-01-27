@@ -21,7 +21,7 @@ export function ButtonAppBar() {
       <AppBar className='Appbar'>
         <Toolbar >
           <Typography variant="h6" className='appname' component="div" sx={{ flexGrow: 1 }}>
-              PAYMENT INTEGRATION APP
+              ECOMMERCE PROJECT
           </Typography>
     
           <Typography variant="h6" component="div" sx={{ flexGrow: -1 }}>
